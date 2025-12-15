@@ -39,8 +39,9 @@ model Certificate {
 model Resume {
   id        String   @id @default(cuid())
   fileUrl   String
-  publicId  String 
+  publicId  String?  // <--- Add the ? here
   isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
 
