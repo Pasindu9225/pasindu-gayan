@@ -149,7 +149,6 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-24">
-          {/* UPDATED LINK: Matches "Pasindu_gayan resume.pdf" with %20 for space */}
           <a
             href="/Pasindu_Gayan_Resume.pdf"
             download="Pasindu_Gayan_Resume.pdf"
