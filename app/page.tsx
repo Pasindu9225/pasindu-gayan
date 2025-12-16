@@ -149,9 +149,9 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-24">
-          {/* Direct Link to Public File */}
+          {/* UPDATED LINK: Points to simple 'resume.pdf' */}
           <a
-            href="/Pasindu_Gayan_Resume.pdf"
+            href="/resume.pdf"
             download="Pasindu_Gayan_Resume.pdf"
             className="flex items-center justify-center gap-2 bg-brand-emerald text-white px-8 py-4 rounded-lg font-medium hover:bg-brand-dark transition-all hover:-translate-y-1 shadow-xl shadow-brand-emerald/20 ring-1 ring-white/20"
           >
@@ -399,8 +399,8 @@ export default function Home() {
                 type="submit"
                 disabled={isSending || sendStatus === "success"}
                 className={`w-full py-3.5 rounded-lg font-bold flex items-center justify-center gap-2 transition-all shadow-lg shadow-brand-emerald/10 ${sendStatus === "success"
-                    ? "bg-green-600 text-white cursor-default"
-                    : "bg-brand-emerald text-white hover:bg-brand-dark hover:-translate-y-0.5"
+                  ? "bg-green-600 text-white cursor-default"
+                  : "bg-brand-emerald text-white hover:bg-brand-dark hover:-translate-y-0.5"
                   }`}
               >
                 {isSending ? (
