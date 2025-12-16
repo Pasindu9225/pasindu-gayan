@@ -149,9 +149,9 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-24">
-          {/* UPDATED LINK: Points to simple 'resume.pdf' */}
+          {/* UPDATED LINK: Matches "Pasindu_gayan resume.pdf" with %20 for space */}
           <a
-            href="/resume.pdf"
+            href="/Pasindu_Gayan_Resume.pdf"
             download="Pasindu_Gayan_Resume.pdf"
             className="flex items-center justify-center gap-2 bg-brand-emerald text-white px-8 py-4 rounded-lg font-medium hover:bg-brand-dark transition-all hover:-translate-y-1 shadow-xl shadow-brand-emerald/20 ring-1 ring-white/20"
           >
