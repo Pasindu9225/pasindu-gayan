@@ -14,8 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  // 1. This tells Next.js your actual domain name so social cards work correctly
+  metadataBase: new URL('https://www.pasindukawshalya.tech'),
+
   title: "Pasindu Gayan | Portfolio",
-  description: "Full Stack Developer",
+  description: "Full Stack Developer engineering Scalable SaaS & E-Commerce solutions.",
+
+  // 2. Extra SEO keywords
+  keywords: ["Pasindu Gayan", "Portfolio", "Full Stack Developer", "Software Engineer", "Sri Lanka", "Next.js"],
+
+  // 3. Explicit OpenGraph settings (The image is auto-detected from opengraph-image.png, but this text helps)
+  openGraph: {
+    title: "Pasindu Gayan | Portfolio",
+    description: "Full Stack Developer engineering Scalable SaaS & E-Commerce solutions.",
+    url: 'https://www.pasindukawshalya.tech',
+    siteName: 'Pasindu Gayan',
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
