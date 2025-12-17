@@ -23,7 +23,12 @@ export const metadata: Metadata = {
   // 2. Extra SEO keywords
   keywords: ["Pasindu Gayan", "Portfolio", "Full Stack Developer", "Software Engineer", "Sri Lanka", "Next.js"],
 
-  // 3. Explicit OpenGraph settings (The image is auto-detected from opengraph-image.png, but this text helps)
+  // 3. Google Search Console Verification
+  verification: {
+    google: 'yHNQLjsgrmRPfF3IFQ-n9sHZgnJ4HH6dOIMVDC17Mqs', // <--- PASTE YOUR CODE INSIDE THESE QUOTES
+  },
+
+  // 4. Explicit OpenGraph settings
   openGraph: {
     title: "Pasindu Gayan | Portfolio",
     description: "Full Stack Developer engineering Scalable SaaS & E-Commerce solutions.",
